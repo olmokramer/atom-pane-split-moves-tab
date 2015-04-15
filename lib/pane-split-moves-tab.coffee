@@ -13,8 +13,10 @@ class SplitMovesTab
   deactivate: ->
     @disposables.dispose()
 
-  splitPane: ({currentTarget}) ->
+  splitPane: (e) ->
+    paneView = e.currentTarget
+    pane = paneView.getModel()
     process.nextTick ->
-      currentTarget.getModel().destroyActiveItem()
+      pane.destroyActiveItem()
 
 module.exports = new SplitMovesTab()
