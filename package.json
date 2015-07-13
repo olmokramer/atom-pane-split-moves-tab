@@ -7,5 +7,13 @@
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
+  },
+  "activationCommands": {
+    "atom-pane": [
+      "pane:split-up",
+      "pane:split-down",
+      "pane:split-right",
+      "pane:split-left"
+    ]
   }
 }
