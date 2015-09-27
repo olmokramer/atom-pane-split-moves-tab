@@ -12,8 +12,14 @@
     "atom-pane": [
       "pane:split-up",
       "pane:split-down",
-      "pane:split-right",
-      "pane:split-left"
+      "pane:split-left",
+      "pane:split-right"
+    ],
+    ".tab-bar": [
+      "tabs:split-up",
+      "tabs:split-down",
+      "tabs:split-left",
+      "tabs:split-right"
     ]
   }
 }
