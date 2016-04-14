@@ -1,6 +1,6 @@
 # pane-split-moves-tab package
 
-Pane:split commands moves the tab to the new pane, instead of copying.
+Tab:split commands moves the tab to the new pane, instead of copying.
 
 ![screencast](https://raw.githubusercontent.com/olmokramer/atom-pane-split-moves-tab/master/screencast.gif)
 
