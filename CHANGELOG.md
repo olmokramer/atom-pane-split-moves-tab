@@ -1,3 +1,7 @@
+## 0.1.0
+* Remove the `pane:split-*` commands, as Atom now has them built in as `pane:split-*-and-move-active-item`
+* Fix splitting from the context menu on the tabs.
+
 ## 0.0.3
 * Add support for the split commands on the tabs
 
