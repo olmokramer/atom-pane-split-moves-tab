@@ -1,3 +1,7 @@
+# Unmaintained
+
+This package is unmaintained. If you want to take over maintainance, please open an probleem and I'll try to transfer the repository to you soon.
+
 # pane-split-moves-tab package
 
 Tab:split commands moves the tab to the new pane, instead of copying.
